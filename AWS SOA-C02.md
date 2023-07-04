@@ -7,6 +7,7 @@
 | 5   | Networking and Content Delivery          | 18% |
 | 6   | Performance and Cost Optimization        | 12% |
 
+![[AWS SOA Badge.png | 256]]
 
 ### Skills Outline
 

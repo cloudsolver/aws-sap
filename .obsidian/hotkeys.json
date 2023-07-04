@@ -1,0 +1,28 @@
+{
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "G"
+    }
+  ],
+  "graph:animate": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "tag-pane:open": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ]
+}

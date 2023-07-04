@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "239fbc22d7a9f3e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "49e1b3c607393b63",
+        "type": "tabs",
+        "dimension": 45.447976878612714,
+        "children": [
+          {
+            "id": "15fb34a1d02953b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS SAP-C02.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "e60955ec395650a1"
+          }
+        ]
+      },
+      {
+        "id": "8c489fd6be65bdaa",
+        "type": "tabs",
+        "dimension": 54.552023121387286,
+        "children": [
+          {
+            "id": "adf01ed097a9b349",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS SAP-C02.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "e60955ec395650a1"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7bc83f32b05c48a",
+    "type": "split",
+    "children": [
+      {
+        "id": "78736c0ac1ca33f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae35c53ed56c8b16",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2195e8c73ce4618a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "OpenS",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0531a3a93164a0d1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "568221f5d6ea1829",
+    "type": "split",
+    "children": [
+      {
+        "id": "8cda791e68f9776f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "802d4d6f7501fb46",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AWS SAP-C02.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a0a1067b81bc08a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AWS SAP-C02.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "895a238d8b19abf1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1367503ceeb6981f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AWS SAP-C02.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "adf01ed097a9b349",
+  "lastOpenFiles": [
+    "AWS SAA-C03.md",
+    "AWS SAP-C02.md",
+    "AWS SOA-C02.md",
+    "AWS DVA-C02.md",
+    "assets/AWS SOA Badge.png",
+    "SAP Canvas.canvas",
+    "atoms/VPN.md",
+    "atoms/OpenSearch.md",
+    "assets/Open Search Architecture.png",
+    "atoms/Lex.md",
+    "atoms/ControlTower.md",
+    "atoms/MPI.md",
+    "atoms/SSM.md",
+    "atoms/CloudFormation.md",
+    "atoms/VGW.md",
+    "atoms/S3 Inventory.md",
+    "atoms/RDP.md",
+    "atoms/Envelope encryption.md",
+    "atoms/ElastiCache.md",
+    "atoms/QuickSight.md",
+    "atoms/Cognito User Pools.md",
+    "atoms/OCSP.md",
+    "atoms/MFA.md",
+    "atoms/SAM.md",
+    "atoms/JSON.md",
+    "atoms/Kubernetes.md",
+    "atoms/EKS.md",
+    "atoms/GuardDuty.md",
+    "atoms/Site-to-Site VPN.md",
+    "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf",
+    "assets/ALB Target Groups.png",
+    "assets/SSM Run Command Invocation Architecture.png",
+    "assets/SSM Run Command Architecture.png",
+    "assets/ssm-aws-overview.png",
+    "assets/CloudFormation Update Process.png",
+    "assets/Routetable Blackhole.png",
+    "assets/S3 ACL.png",
+    "assets/ASG Lifecycle.png"
+  ]
+}

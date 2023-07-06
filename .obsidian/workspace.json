@@ -6,7 +6,7 @@
       {
         "id": "49e1b3c607393b63",
         "type": "tabs",
-        "dimension": 45.447976878612714,
+        "dimension": 50,
         "children": [
           {
             "id": "15fb34a1d02953b3",
@@ -14,32 +14,45 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS SAP-C02.md",
+                "file": "molecules/Well-Architected Cost Optimized.md",
                 "mode": "preview",
                 "source": true
               }
-            },
-            "group": "e60955ec395650a1"
-          }
-        ]
-      },
-      {
-        "id": "8c489fd6be65bdaa",
-        "type": "tabs",
-        "dimension": 54.552023121387286,
-        "children": [
+            }
+          },
           {
-            "id": "adf01ed097a9b349",
+            "id": "5ff781d3ee71dbfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS SAP-C02.md",
+                "file": "atoms/CIDR.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "91f03878d769ab29"
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "296e2af6471a8084",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "accf25ce9836fcae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/CIDR.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "e60955ec395650a1"
+            "group": "91f03878d769ab29"
           }
         ]
       }
@@ -70,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "OpenS",
+                "query": "CIDR",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -87,11 +100,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "568221f5d6ea1829",
@@ -107,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS SAP-C02.md",
+                "file": "atoms/CIDR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS SAP-C02.md",
+                "file": "atoms/CIDR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS SAP-C02.md"
+                "file": "atoms/CIDR.md"
               }
             }
           }
@@ -171,10 +185,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "adf01ed097a9b349",
+  "active": "accf25ce9836fcae",
   "lastOpenFiles": [
-    "AWS SAA-C03.md",
+    "atoms/ECS.md",
+    "assets/ECS Overview.png",
+    "atoms/Route 53.md",
+    "atoms/Lambda.md",
+    "atoms/CodeArtifact.md",
+    "molecules/Well-Architected Cost Optimized.md",
+    "README.md",
+    "molecules/Well-Architected Performant.md",
+    "Well-Architected Framework.md",
+    "molecules/Well-Architected Resilient.md",
+    "Hybrid Cloud Architecture.md",
+    "Event Driven Architectures.md",
+    "Global Infrastructure.md",
+    "DR.md",
+    "molecules/Storage Architecture.md",
+    "molecules/Well-Architected Secure.md",
     "AWS SAP-C02.md",
+    "AWS SAA-C03.md",
     "AWS SOA-C02.md",
     "AWS DVA-C02.md",
     "assets/AWS SOA Badge.png",
@@ -186,22 +216,6 @@
     "atoms/ControlTower.md",
     "atoms/MPI.md",
     "atoms/SSM.md",
-    "atoms/CloudFormation.md",
-    "atoms/VGW.md",
-    "atoms/S3 Inventory.md",
-    "atoms/RDP.md",
-    "atoms/Envelope encryption.md",
-    "atoms/ElastiCache.md",
-    "atoms/QuickSight.md",
-    "atoms/Cognito User Pools.md",
-    "atoms/OCSP.md",
-    "atoms/MFA.md",
-    "atoms/SAM.md",
-    "atoms/JSON.md",
-    "atoms/Kubernetes.md",
-    "atoms/EKS.md",
-    "atoms/GuardDuty.md",
-    "atoms/Site-to-Site VPN.md",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf",
     "assets/ALB Target Groups.png",
     "assets/SSM Run Command Invocation Architecture.png",
@@ -209,7 +223,6 @@
     "assets/ssm-aws-overview.png",
     "assets/CloudFormation Update Process.png",
     "assets/Routetable Blackhole.png",
-    "assets/S3 ACL.png",
-    "assets/ASG Lifecycle.png"
+    "assets/S3 ACL.png"
   ]
 }

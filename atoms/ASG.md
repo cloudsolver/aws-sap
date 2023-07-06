@@ -26,7 +26,7 @@ Fig. Metric-driven auto-scaling
 ![[ASG Lifecycle.png]]
 Fig. ASG Lifecycle
 
-- #WellArchitected For Fault tolerance requires the minimum number of [[EC2]] instances in each [[AZ]] that enables [[Resilient Architectures]] on AWS.
+- #WellArchitected For Fault tolerance requires the minimum number of [[EC2]] instances in each [[AZ]] that enables [[Well-Architected Resilient]] on AWS.
 - EC2 instance launched from the oldest launch configuration is terminated first.
 ![[Autoscaling Policies]]
 

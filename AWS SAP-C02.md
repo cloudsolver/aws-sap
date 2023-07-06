@@ -13,10 +13,10 @@ Familiarity with AWS CLI, AWS APIs, AWS [[CloudFormation]] templates, the AWS Bi
 ## Domains
 
 Design Architectures that are:
-1. [[Secure Architectures]] 0.30
-2. [[Resilient Architectures]] 0.26
-4. [[Performant Architectures]] 0.24
-5. [[Cost Optimized Architecture]] 0.20
+1. [[Well-Architected Secure]] 0.30
+2. [[Well-Architected Resilient]] 0.26
+4. [[Well-Architected Performant]] 0.24
+5. [[Well-Architected Cost Optimized]] 0.20
 
 [AWS Whitepapers](00-Resources/AWS Whitepapers.md)
 1. Exam Guide: [Click Here](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)

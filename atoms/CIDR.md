@@ -1,13 +1,15 @@
-CIDR (Classless Inter-Domain Routing or supernetting) is a method of assigning [IP](https://www.techtarget.com/searchunifiedcommunications/definition/Internet-Protocol) addresses that improves the efficiency of address distribution and replaces the previous system based on Class A, Class B and Class C networks.
+CIDR (Classless Inter-Domain Routing or supernetting) is a method of assigning [IP](https://www.techtarget.com/searchunifiedcommunications/definition/Internet-Protocol) addresses that improves the efficiency of address distribution and replaces the previous system based on Class A, Class B, and Class C networks.
 
-It is a widely method for [[IP Address]] allocation.
+**Useful Tool: https://cidr.xyz/**
+
+It is a widely used method for [[IP Address]] allocation.
 The advantages of CIDR include:
 -   More efficient use of IP addresses
 -   Easier to manage IP addresses
 -   Easier to route traffic
 -   More flexibility in IP address assignment
 
-Calculate Network ID, Broadcast ID and IP Range from a CIDR [YouTube Tutorial](https://www.youtube.com/watch?v=POPoAjWFkGg&t=336s)
+Calculate Network ID, Broadcast ID, and IP Range from a CIDR [YouTube Tutorial](https://www.youtube.com/watch?v=POPoAjWFkGg&t=336s)
 
 _Note: AWS will reserve the first 4 and the last IP in any CIDR range_
 #### Class Based IP Allocation System (Legacy)

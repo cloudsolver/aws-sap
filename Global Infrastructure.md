@@ -27,15 +27,15 @@ See: [Data Center](Data%20Center.md)
 1. [Global Edge Network](https://aws.amazon.com/cloudfront/features/?p=ugi&l=na&whats-new-cloudfront.sort-by=item.additionalFields.postDateTime&whats-new-cloudfront.sort-order=desc)
 
 * Amazon CloudFront peers with thousands of Tier 1/2/3 telecom carriers globally.
-* CloudFront is well connected with all major access networks for optimal performance, and has hundreds of terabits of deployed capacity.
-* CloudFront edge locations are connected to the AWS Regions through the AWS network backbone - fully redundant, multiple 100GbE parallel fiber that circles the globe and links with tens of thousands of networks for improved origin fetches and dynamic content acceleration.these are cached closest to audience.
+* CloudFront is well connected with all major access networks for optimal performance and has hundreds of terabits of deployed capacity.
+* CloudFront edge locations are connected to the AWS Regions through the AWS network backbone - fully redundant, multiple 100GbE parallel fibers that circle the globe and link with tens of thousands of networks for improved origin fetches and dynamic content acceleration. These are cached closest to the audience.
 * Mini-data centers created for low latency between applications and users.
 * There are many more edge locations than AZs or regions.	
 
 ## Cloud Front
-[[CloudFront]]
+ See: [[CloudFront]]
 
 ## Global Accelerator
-[[Global Accelerator]]
+See: [[Global Accelerator]]
 
 https://infrastructure.aws

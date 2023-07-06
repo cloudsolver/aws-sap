@@ -1,5 +1,8 @@
-### Summary of ECS
-Elastic Container Service requires you to provision and maintain the EC2 instance. #AWSService 
+Elastic Container Service consists of cluster, service, tasks, and compute.  The underlying computing platform for ECS is [[EC2]] launch type or [[Fargate]] launch type that frees you from underlying server management.
+
+#AWSService 
+
+![[ECS Overview.png]]
 
 ### ECS Details
 

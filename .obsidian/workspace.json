@@ -6,7 +6,6 @@
       {
         "id": "49e1b3c607393b63",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "15fb34a1d02953b3",
@@ -26,33 +25,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CIDR.md",
+                "file": "AWS SAP-C02.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "91f03878d769ab29"
+            "group": "7ec08eecc58a3497"
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "296e2af6471a8084",
+        "id": "37dcaa4df0f73f4f",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "accf25ce9836fcae",
+            "id": "7ba2ea80b9e3c535",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CIDR.md",
+                "file": "AWS SAP-C02.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "91f03878d769ab29"
+            "group": "7ec08eecc58a3497"
           }
         ]
       }
@@ -83,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CIDR",
+                "query": "Lambda",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -100,12 +98,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 283.5
   },
   "right": {
     "id": "568221f5d6ea1829",
@@ -121,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/CIDR.md",
+                "file": "AWS SAP-C02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/CIDR.md",
+                "file": "AWS SAP-C02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/CIDR.md"
+                "file": "AWS SAP-C02.md"
               }
             }
           }
@@ -181,16 +178,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "random-note:Open random note": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "accf25ce9836fcae",
+  "active": "5ff781d3ee71dbfb",
   "lastOpenFiles": [
+    "AWS SAA-C03.md",
+    "AWS SAP-C02.md",
+    "atoms/Network Firewall.md",
+    "atoms/Lambda.md",
+    "atoms/Cognito User Pools.md",
+    "atoms/Docker.md",
+    "atoms/CIDR.md",
     "atoms/ECS.md",
     "assets/ECS Overview.png",
     "atoms/Route 53.md",
-    "atoms/Lambda.md",
     "atoms/CodeArtifact.md",
     "molecules/Well-Architected Cost Optimized.md",
     "README.md",
@@ -203,8 +206,6 @@
     "DR.md",
     "molecules/Storage Architecture.md",
     "molecules/Well-Architected Secure.md",
-    "AWS SAP-C02.md",
-    "AWS SAA-C03.md",
     "AWS SOA-C02.md",
     "AWS DVA-C02.md",
     "assets/AWS SOA Badge.png",
@@ -213,9 +214,6 @@
     "atoms/OpenSearch.md",
     "assets/Open Search Architecture.png",
     "atoms/Lex.md",
-    "atoms/ControlTower.md",
-    "atoms/MPI.md",
-    "atoms/SSM.md",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf",
     "assets/ALB Target Groups.png",
     "assets/SSM Run Command Invocation Architecture.png",

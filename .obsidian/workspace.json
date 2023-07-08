@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "15fb34a1d02953b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "molecules/Well-Architected Cost Optimized.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "5ff781d3ee71dbfb",
             "type": "leaf",
             "state": {
@@ -32,8 +20,7 @@
             },
             "group": "7ec08eecc58a3497"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "37dcaa4df0f73f4f",
@@ -182,10 +169,12 @@
       "random-note:Open random note": false
     }
   },
-  "active": "5ff781d3ee71dbfb",
+  "active": "ae35c53ed56c8b16",
   "lastOpenFiles": [
-    "AWS SAA-C03.md",
+    "atoms/Storage Gateway.md",
+    "molecules/Well-Architected Cost Optimized.md",
     "AWS SAP-C02.md",
+    "AWS SAA-C03.md",
     "atoms/Network Firewall.md",
     "atoms/Lambda.md",
     "atoms/Cognito User Pools.md",
@@ -195,7 +184,6 @@
     "assets/ECS Overview.png",
     "atoms/Route 53.md",
     "atoms/CodeArtifact.md",
-    "molecules/Well-Architected Cost Optimized.md",
     "README.md",
     "molecules/Well-Architected Performant.md",
     "Well-Architected Framework.md",
@@ -213,7 +201,6 @@
     "atoms/VPN.md",
     "atoms/OpenSearch.md",
     "assets/Open Search Architecture.png",
-    "atoms/Lex.md",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf",
     "assets/ALB Target Groups.png",
     "assets/SSM Run Command Invocation Architecture.png",

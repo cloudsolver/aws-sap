@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "49e1b3c607393b63",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5ff781d3ee71dbfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS SAP-C02.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "7ec08eecc58a3497"
-          }
-        ]
-      },
-      {
         "id": "37dcaa4df0f73f4f",
         "type": "tabs",
         "children": [
@@ -32,12 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS SAP-C02.md",
+                "file": "molecules/Data and Analytics Services.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "7ec08eecc58a3497"
+            "group": "2ea2ebc2de65cd31"
+          }
+        ]
+      },
+      {
+        "id": "3f9d3b5355645fac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25bf54a3b135a16f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "molecules/Data and Analytics Services.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "2ea2ebc2de65cd31"
           }
         ]
       }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS SAP-C02.md",
+                "file": "molecules/Data and Analytics Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS SAP-C02.md",
+                "file": "molecules/Data and Analytics Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS SAP-C02.md"
+                "file": "molecules/Data and Analytics Services.md"
               }
             }
           }
@@ -169,11 +169,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "ae35c53ed56c8b16",
+  "active": "25bf54a3b135a16f",
   "lastOpenFiles": [
+    "AWS SAP-C02.md",
     "atoms/Storage Gateway.md",
     "molecules/Well-Architected Cost Optimized.md",
-    "AWS SAP-C02.md",
     "AWS SAA-C03.md",
     "atoms/Network Firewall.md",
     "atoms/Lambda.md",

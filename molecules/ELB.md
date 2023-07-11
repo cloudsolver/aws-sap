@@ -40,12 +40,12 @@ HTTPS listener
 	You must specify a default certificate. 
 	You can add an optional list of certs to support multiple domains.
 	Clients can use [[SNI]] (Server Name Indication) to specify the hostname 
-Constraint: Does not work with CLB. Only works with ALB, NLB and CloudFront.
-ALB v2 and NLB v2 supports multiple listeners with multiple SSL certificates and uses SNI.
+Constraint: Does not work with CLB. It only works with ALB, NLB, and CloudFront.
+ALB v2 and NLB v2 support multiple listeners with multiple SSL certificates and uses SNI.
 CLB v1 supports only 1 SSL certificate.
 
 ## Connection Draining
-Time to complete 'in-flight requests' while the instance is de-registering or unhealthy. Stops sending new request to the EC2 instance which is de-registering. During this time new connections to ELB are directed to healthy instances.
+Time to complete 'in-flight requests' while the instance is de-registering or unhealthy. Stops sending new requests to the EC2 instance, which is de-registering. During this time, new connections to ELB are directed to healthy instances.
 Default: 300 seconds. Set to lower values for shorter requests.
 
 ## General Notes

@@ -1,19 +1,26 @@
-Elastic Load Balancers is an #AWSService that can be set up externally as well as internally.
-## CLB
-![[CLB]]
-#### ALB
-![[ALB]]
-## NLB
-![[NLB]]
-## GWLB
-![[GWLB]]
+Elastic Load Balancers is an #AWSService that can be set up externally and internally.
+
+| [[ALB]]     | [[NLB]]             | [[GWLB]]    |
+| ----------- | ------------------- | ------- |
+| Application | Network             | Gateway |
+| Lambda      | ALB                 | IP      |
+| Layer 7     | Layer 4             | Layer 3 |
+|             | Static / Elastic IP |         |
+| User Auth   |                     |         |
+Table: Differentiators
+
+Also, see: Classic Load Balancer for legacy: [[CLB]]
+
+![[ELB Feature Comparison.png]]
+Fig. ELB Feature Comparison
+
 ## Session Affinity
-- Implement same client is always directed to the same instance behind a load balancer.
+- Implement the same client is always directed to the same instance behind a load balancer.
 - Possible via CLB and ALB via `cookie` that has an expiration date.
-### Application Based Cookies
+### Application-Based Cookies
 - Custom Cookie : don't use reserved cookie names e.g. `AWSALBTG`
 - Application Cookie `AWSALBAPP` 
-### Duration Based Cookies
+### Duration-Based Cookies
 - Load Balancer Generate `AWSALB` or `AWSELB` (Classic)
 You can configure this in the Target Group settings.
 

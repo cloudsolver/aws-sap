@@ -9,9 +9,8 @@ Manage the security posture of your organization's Amazon Simple Storage Service
 * #UseCase : discover passport numbers stored on S3 using Macie. Find SSNs in S3 files.
 * Macie does not support RDS.
 
----
-> **References for Macie**
-> 1. [Macie](https://aws.amazon.com/macie/)
-> 
- 
-*Created on 2023-03-19 19:18*
+## Resources
+
+1. [Macie](https://aws.amazon.com/macie/)
+2. [Create Custom Alerts in Macie](https://aws.amazon.com/blogs/security/how-to-create-custom-alerts-with-amazon-macie/)
+3. [Classify Sensitive Data in Your Environment with Macie](https://aws.amazon.com/blogs/security/classify-sensitive-data-in-your-environment-using-amazon-macie/)

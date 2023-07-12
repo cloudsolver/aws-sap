@@ -50,3 +50,6 @@
 #Question Penetration Testing is permitted but what is not permitted?
 Route53 and DNS is prohibited.
 [AWS Pen Test](https://aws.amazon.com/security/penetration-testing/)
+
+## Resources
+1. [Top 10 Security Items to Improve in Your AWS Account](https://aws.amazon.com/blogs/security/top-10-security-items-to-improve-in-your-aws-account/)

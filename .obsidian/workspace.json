@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecules/ELB.md",
+                "file": "atoms/WAF.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecules/ELB.md",
+                "file": "atoms/WAF.md",
                 "mode": "preview",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "load bala",
+                "query": "WAF",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "molecules/ELB.md",
+                "file": "atoms/WAF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "molecules/ELB.md",
+                "file": "atoms/WAF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecules/ELB.md"
+                "file": "atoms/WAF.md"
               }
             }
           }
@@ -172,12 +172,26 @@
   },
   "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
-    "assets/ELB Feature Comparison.png",
-    "molecules/ELB.md",
-    "molecules/Data and Analytics Services.md",
+    "SAP Canvas.canvas",
+    "atoms/WAF.md",
+    "atoms/Macie.md",
+    "atoms/Security Hub.md",
+    "assets/Security Hub Integrations.png",
     "AWS SAP-C02.md",
-    "atoms/Storage Gateway.md",
+    "molecules/Encryption Concepts.md",
+    "atoms/KMS.md",
+    "molecules/GW.md",
+    "molecules/Messaging Services.md",
     "molecules/Well-Architected Cost Optimized.md",
+    "molecules/Well-Architected Secure.md",
+    "molecules/Machine Learning Services.md",
+    "molecules/Lift and Shift.md",
+    "atoms/IP Address.md",
+    "molecules/IAM.md",
+    "atoms/ELB.md",
+    "assets/ELB Feature Comparison.png",
+    "molecules/Data and Analytics Services.md",
+    "atoms/Storage Gateway.md",
     "AWS SAA-C03.md",
     "atoms/Network Firewall.md",
     "atoms/Lambda.md",
@@ -187,27 +201,13 @@
     "atoms/ECS.md",
     "assets/ECS Overview.png",
     "atoms/Route 53.md",
-    "atoms/CodeArtifact.md",
-    "README.md",
-    "molecules/Well-Architected Performant.md",
-    "Well-Architected Framework.md",
-    "molecules/Well-Architected Resilient.md",
-    "Hybrid Cloud Architecture.md",
-    "Event Driven Architectures.md",
-    "Global Infrastructure.md",
-    "DR.md",
-    "molecules/Storage Architecture.md",
-    "molecules/Well-Architected Secure.md",
-    "AWS SOA-C02.md",
     "assets/AWS SOA Badge.png",
-    "SAP Canvas.canvas",
     "assets/Open Search Architecture.png",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf",
     "assets/ALB Target Groups.png",
     "assets/SSM Run Command Invocation Architecture.png",
     "assets/SSM Run Command Architecture.png",
     "assets/ssm-aws-overview.png",
-    "assets/CloudFormation Update Process.png",
-    "assets/Routetable Blackhole.png"
+    "assets/CloudFormation Update Process.png"
   ]
 }

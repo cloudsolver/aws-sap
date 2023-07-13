@@ -20,9 +20,8 @@ Fig. EventBridge Notifications
 #### Constraints
  - **Certificates in ACM are regional resources**. To use a certificate with Elastic Load Balancing for the same fully qualified domain name (FQDN) or set of FQDNs in more than one AWS region, you must request or import a certificate for each region.
 - Cannot use public certificates with [[EC2]] 
----
-> **References for ACM**
-> 1. https://docs.aws.amazon.com/acm/latest/userguide/data-protection.html
-> 
- 
-*Created on 2023-03-20 11:14*
+
+### Resources
+
+[AWS Data Protection UG](https://docs.aws.amazon.com/acm/latest/userguide/data-protection.html)
+[AWS ACM Private CA YouTube](https://www.youtube.com/watch?v=nDDBcP-iiSs)

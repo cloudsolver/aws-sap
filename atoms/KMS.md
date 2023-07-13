@@ -47,6 +47,12 @@ Remember that the deletion of keys, once it happens, is final. There is also no 
 to decrypt give a decrypt command with the ciphertext and the blob - it will return a decrypted base64 encoded file back.
 `aws kms decrypt --ciphertext-blob fileb://SecretFileEncrypted --output text --query Plaintext ExampleFileDecrypted.base64`
 
+
+#### CMK Types
+
+![[KMS CMK Type Comparison.png]]
+Fig. KMS CMK Types
+
 ---
 
 #Question  What are the request limits of KMS?
@@ -128,11 +134,10 @@ Use KMS Key Policies. Not KMS IAM Policy.
 	- Define users and roles that can access the KMS key.
 	- Define who can administer the key.
 	- Useful for cross-account access to the key.
-- 
----
-> **References for KMS**
-> 1. https://aws.amazon.com/kms/
-> 2. https://aws.amazon.com/kms/features/#AWS_Service_Integration
-> 
- 
-*Created on 2023-03-19 15:26*
+
+#### Resources
+
+1. https://aws.amazon.com/kms/
+2. https://aws.amazon.com/kms/features/#AWS_Service_Integration
+3. [KMS Cryptographic Details](https://docs.aws.amazon.com/kms/latest/cryptographic-details/intro.html)
+4. [KMS Best Practices Whitepaper](https://d0.awsstatic.com/whitepapers/aws-kms-best-practices.pdf)

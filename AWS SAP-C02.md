@@ -212,7 +212,7 @@ Familiarity with AWS CLI, AWS APIs, AWS CloudFormation templates, the AWS Billin
 • [[Service Quotas]]
 • AWS [[SSM|Systems Manager]]
 • AWS [[Trusted Advisor]]
-• AWS [[Well-Architected Tool]]
+• AWS [[WA Tool]]
 
 
 #### 15. Media Services

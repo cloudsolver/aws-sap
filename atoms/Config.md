@@ -48,12 +48,13 @@ Fig. EventBridge triggers Lamba *custom remediation*
 ![[Config Aggregator.png]]
 Fig. AWS Config Aggregator
 
-> 
-> **References for Config**
+### Resource
+
 1.  https://aws.amazon.com/config/features/
 2. https://docs.aws.amazon.com/pdfs/config/latest/developerguide/config-dg.pdf
 3. Multi-region, multi-account config: https://youtu.be/5m8ljOghcWM
 4. https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-ssm-docs.html
+5. [AWS Config Rules Repo](https://aws.amazon.com/blogs/security/announcing-the-aws-config-rules-repository-a-new-community-based-source-of-custom-rules-for-aws-config/)
 
 ---
 *Created on 2023-03-15 23:03*

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/WAF.md",
+                "file": "atoms/WA Tool.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/WAF.md",
+                "file": "atoms/WA Tool.md",
                 "mode": "preview",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "WAF",
+                "query": "Well-Architected Tool",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/WAF.md",
+                "file": "atoms/WA Tool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/WAF.md",
+                "file": "atoms/WA Tool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/WAF.md"
+                "file": "atoms/WA Tool.md"
               }
             }
           }
@@ -172,14 +171,19 @@
   },
   "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
-    "SAP Canvas.canvas",
+    "assets/Well-Architected Tool.png",
+    "atoms/WA Tool.md",
+    "AWS SAP-C02.md",
+    "atoms/Config.md",
+    "atoms/ACM.md",
+    "atoms/KMS.md",
+    "assets/KMS CMK Type Comparison.png",
     "atoms/WAF.md",
+    "SAP Canvas.canvas",
     "atoms/Macie.md",
     "atoms/Security Hub.md",
     "assets/Security Hub Integrations.png",
-    "AWS SAP-C02.md",
     "molecules/Encryption Concepts.md",
-    "atoms/KMS.md",
     "molecules/GW.md",
     "molecules/Messaging Services.md",
     "molecules/Well-Architected Cost Optimized.md",
@@ -197,17 +201,12 @@
     "atoms/Lambda.md",
     "atoms/Cognito User Pools.md",
     "atoms/Docker.md",
-    "atoms/CIDR.md",
-    "atoms/ECS.md",
     "assets/ECS Overview.png",
-    "atoms/Route 53.md",
     "assets/AWS SOA Badge.png",
     "assets/Open Search Architecture.png",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf",
     "assets/ALB Target Groups.png",
     "assets/SSM Run Command Invocation Architecture.png",
-    "assets/SSM Run Command Architecture.png",
-    "assets/ssm-aws-overview.png",
-    "assets/CloudFormation Update Process.png"
+    "assets/SSM Run Command Architecture.png"
   ]
 }

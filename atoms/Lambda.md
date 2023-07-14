@@ -1,7 +1,10 @@
 ### Summary of Lambda
-AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use. #AWSService 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software-as-a-service (SaaS) applications and only pay for what you use. #AWSService 
+
 ### Lambda Details
-- Custom Runtime is  supported e.g. Rust.
+
+- Lambda is not the best fit for a heavily compute-intensive piece of code.
+- Custom Runtime is supported via layers, e.g., Rust.
 - Init times are usually around 100 ms.
 - Use [[Step Functions]] to orchestrate workflows.
 **Lambda Limits**
@@ -94,7 +97,8 @@ See: [Docs](https://docs.aws.amazon.com/lambda/latest/dg/services-rds.html)
 To use Lambda@Edge, you just upload your code to AWS Lambda and associate a function version to be triggered in response to Amazon CloudFront requests.
 
 
-**References for Lambda**
+### Resources
+
 1. https://aws.amazon.com/lambda/faqs/
 2. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL-Lambda.html
 

@@ -6,9 +6,9 @@ Containerization that supports modern microservices architecture, lift-and-shift
 
 - Containers share the host kernel.
 - Not a good choice for applications that need persistent data storage 
-- Not a good choice for applications have complex networking, routing, or security requirements
+- Not a good choice for applications that have complex networking, routing, or security requirements
 
 - `DockerFile`builds an image.
-- Push an image to the repo.
+- Push an image to the [[ECR]] repo.
 - You can pull images from the repo.
 - Use for compute-intensive applications.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/ECR.md",
+                "file": "atoms/EB.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/ECR.md",
+                "file": "atoms/EB.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/ECR.md",
+                "file": "atoms/EB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/ECR.md",
+                "file": "atoms/EB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/ECR.md"
+                "file": "atoms/EB.md"
               }
             }
           }
@@ -170,8 +170,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "25bf54a3b135a16f",
+  "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
+    "atoms/ECR.md",
     "atoms/Docker.md",
     "atoms/Lambda.md",
     "atoms/WA Tool.md",
@@ -202,7 +203,6 @@
     "atoms/Storage Gateway.md",
     "AWS SAA-C03.md",
     "atoms/Network Firewall.md",
-    "atoms/Cognito User Pools.md",
     "assets/ECS Overview.png",
     "assets/AWS SOA Badge.png",
     "assets/Open Search Architecture.png",

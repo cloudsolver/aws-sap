@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/EB.md",
+                "file": "atoms/EventBridge.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/EB.md",
+                "file": "atoms/EventBridge.md",
                 "mode": "preview",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Docker",
+                "query": "Event",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/EB.md",
+                "file": "atoms/EventBridge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/EB.md",
+                "file": "atoms/EventBridge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/EB.md"
+                "file": "atoms/EventBridge.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
+    "atoms/EB.md",
     "atoms/ECR.md",
     "atoms/Docker.md",
     "atoms/Lambda.md",
@@ -202,7 +203,6 @@
     "molecules/Data and Analytics Services.md",
     "atoms/Storage Gateway.md",
     "AWS SAA-C03.md",
-    "atoms/Network Firewall.md",
     "assets/ECS Overview.png",
     "assets/AWS SOA Badge.png",
     "assets/Open Search Architecture.png",

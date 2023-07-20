@@ -20,9 +20,10 @@ Build loosely coupled event driven architecture at scale with Event Bridge. #AWS
 > Support for event schema discovery within its Schema Registry feature along with versioning
 > Manage permissions into the Event Bus. #UseCase Aggregate all events into a central bus from all accounts within an organization.
 > ![[AWS events from other account.png]] 
-> You could create a bus by environment, organization unit and critical application or path.
+> You could create a bus by the environment, organization unit, and critical application or path.
 
-## References
+## Resources
 
 1. [AWS Event Bridge](https://aws.amazon.com/eventbridge/) 
 2. https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-event-bus.html
+3. [Scheduler Blog](https://aws.amazon.com/blogs/compute/introducing-amazon-eventbridge-scheduler/)

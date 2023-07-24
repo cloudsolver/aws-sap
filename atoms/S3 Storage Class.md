@@ -7,16 +7,19 @@ Fig. Transition Level
 - Only Amazon S3 Standard has the feature of no minimum storage duration.
 - Objects need to be in S3 standard storage for a minimum of 30 days before it can be moved to other class.
 ![Storage Class|600](s3-storage-classes.png)
-#### Standard: 
+#### Standard
 - 99.99% availability. Sustain 2 concurrent facility failures. #resilient 
 - Big data analytics, mobile , gaming applications, content distribution #UseCase 
-#### IA : Infrequent Access
+#### Infrequent Access (Standard)
+It should be used for data that is no accessed much but, when needed, is instantly available.
 - 99.9% availability.
 - Cost on retrieval.
 - Disaster recovery, backups. #UseCase 
-#### OZ : One-Zone
+#### Infrequent Access (One Zone)
+S3 One Zone IA should be used for data that can be recreated.
 - 99.5% availability. Data loss if AZ is destroyed.
 - Storing secondary backups or data that can be recreated. #UseCase 
+- A minimum capacity charge per object (128 KB) and a per GB retrieval fee apply.
 #### S3 Glacier 
 ![Glacier](Glacier.md)
 #### Intelligent Tiering
@@ -28,5 +31,3 @@ Small monthly monitoring and auto-tiering fee. Move objects automatically betwee
 - Configurable
 	- Archive Access Tier (90-700+ days)
 	- Deep Archived Access Tier (180-700+ days)
-## References
-1.

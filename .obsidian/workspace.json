@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecules/IAM.md",
+                "file": "atoms/S3 Storage Class.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecules/IAM.md",
+                "file": "atoms/S3 Storage Class.md",
                 "mode": "preview",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Event",
+                "query": "S3 One Zone",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "molecules/IAM.md",
+                "file": "atoms/S3 Storage Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "molecules/IAM.md",
+                "file": "atoms/S3 Storage Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecules/IAM.md"
+                "file": "atoms/S3 Storage Class.md"
               }
             }
           }
@@ -172,6 +172,9 @@
   },
   "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
+    "molecules/GW.md",
+    "assets/Endpoint Comparison.png",
+    "molecules/IAM.md",
     "atoms/EventBridge.md",
     "atoms/EB.md",
     "atoms/ECR.md",
@@ -191,24 +194,20 @@
     "atoms/Security Hub.md",
     "assets/Security Hub Integrations.png",
     "molecules/Encryption Concepts.md",
-    "molecules/GW.md",
     "molecules/Messaging Services.md",
     "molecules/Well-Architected Cost Optimized.md",
     "molecules/Well-Architected Secure.md",
     "molecules/Machine Learning Services.md",
     "molecules/Lift and Shift.md",
     "atoms/IP Address.md",
-    "molecules/IAM.md",
     "atoms/ELB.md",
     "assets/ELB Feature Comparison.png",
     "molecules/Data and Analytics Services.md",
-    "atoms/Storage Gateway.md",
     "assets/ECS Overview.png",
     "assets/AWS SOA Badge.png",
     "assets/Open Search Architecture.png",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf",
     "assets/ALB Target Groups.png",
-    "assets/SSM Run Command Invocation Architecture.png",
-    "assets/SSM Run Command Architecture.png"
+    "assets/SSM Run Command Invocation Architecture.png"
   ]
 }

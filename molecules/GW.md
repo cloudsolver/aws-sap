@@ -34,3 +34,7 @@ The gateway pattern is evident in AWS offerings.
 ![[VGW DGW TGW.png]]
 Fig. Comparison. [Source](https://www.megaport.com/blog/aws-vgw-vs-dgw-vs-tgw/)
 
+#### Endpoint
+
+![[Endpoint Comparison.png]]
+Fig. Interface Endpoint versus Gateway Endpoint

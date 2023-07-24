@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/EventBridge.md",
+                "file": "molecules/IAM.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/EventBridge.md",
+                "file": "molecules/IAM.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/EventBridge.md",
+                "file": "molecules/IAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/EventBridge.md",
+                "file": "molecules/IAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/EventBridge.md"
+                "file": "molecules/IAM.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
+    "atoms/EventBridge.md",
     "atoms/EB.md",
     "atoms/ECR.md",
     "atoms/Docker.md",
@@ -202,7 +203,6 @@
     "assets/ELB Feature Comparison.png",
     "molecules/Data and Analytics Services.md",
     "atoms/Storage Gateway.md",
-    "AWS SAA-C03.md",
     "assets/ECS Overview.png",
     "assets/AWS SOA Badge.png",
     "assets/Open Search Architecture.png",

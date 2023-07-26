@@ -17,6 +17,12 @@ There are various storage options.
 | Multi-Cloud, Hybrid Cloud, Intra-AWS Data Sync with meta-data preservation | [DataSync](DataSync.md) | Setup and admin required |
 | Move large amounts of data to the cloud faster than the Internet | [Snow Family](Snow%20Family.md) | Tradeoff cost versus time  |
 
+
+### Capacity Use On-premises versus AWS Storage
+When buying storage from technology vendors, there is overheard beyond the consumable capacity.
+![[Storage Capacity Comparison.png]]
+Fig. Storage Capacity Comparison
+
 #### References for Storage Architecture
 1. https://aws.amazon.com/architecture/storage/
 ---

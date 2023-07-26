@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/S3 Storage Class.md",
-                "mode": "source",
+                "file": "Hybrid Cloud Architecture.md",
+                "mode": "preview",
                 "source": true
               }
             },
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/S3 Storage Class.md",
+                "file": "Hybrid Cloud Architecture.md",
                 "mode": "preview",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "S3 One Zone",
+                "query": "Storage",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/S3 Storage Class.md",
+                "file": "Hybrid Cloud Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/S3 Storage Class.md",
+                "file": "Hybrid Cloud Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/S3 Storage Class.md"
+                "file": "Hybrid Cloud Architecture.md"
               }
             }
           }
@@ -172,6 +172,9 @@
   },
   "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
+    "assets/Storage Capacity Comparison.png",
+    "molecules/Storage Architecture.md",
+    "atoms/S3 Storage Class.md",
     "molecules/GW.md",
     "assets/Endpoint Comparison.png",
     "molecules/IAM.md",
@@ -200,14 +203,11 @@
     "molecules/Machine Learning Services.md",
     "molecules/Lift and Shift.md",
     "atoms/IP Address.md",
-    "atoms/ELB.md",
     "assets/ELB Feature Comparison.png",
-    "molecules/Data and Analytics Services.md",
     "assets/ECS Overview.png",
     "assets/AWS SOA Badge.png",
     "assets/Open Search Architecture.png",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf",
-    "assets/ALB Target Groups.png",
-    "assets/SSM Run Command Invocation Architecture.png"
+    "assets/ALB Target Groups.png"
   ]
 }

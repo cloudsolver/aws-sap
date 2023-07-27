@@ -1,5 +1,11 @@
 ### Summary of Storage Architecture
-There are various storage options.
+There are various storage options available within AWS.
+![[Storage Solution Portfolio.png]]
+Fig. Storage Solution Portfolio
+
+![[Storage Type Sevice Protocol Map.png]]
+Fig. Protocol - Service - Type
+
 ### Storage Architecture Details
 |Need|Solution|Constraints|
 |---|---|---|
@@ -22,6 +28,10 @@ There are various storage options.
 When buying storage from technology vendors, there is overheard beyond the consumable capacity.
 ![[Storage Capacity Comparison.png]]
 Fig. Storage Capacity Comparison
+
+
+![[Storage Services.png]]
+Fig. Core Data Protection Service
 
 #### References for Storage Architecture
 1. https://aws.amazon.com/architecture/storage/

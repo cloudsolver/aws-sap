@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecules/Storage Architecture.md",
+                "file": "atoms/FSx.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecules/Storage Architecture.md",
+                "file": "atoms/FSx.md",
                 "mode": "preview",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Storage",
+                "query": "ONTAP",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "molecules/Storage Architecture.md",
+                "file": "atoms/FSx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "molecules/Storage Architecture.md",
+                "file": "atoms/FSx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecules/Storage Architecture.md"
+                "file": "atoms/FSx.md"
               }
             }
           }
@@ -172,8 +172,8 @@
   },
   "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
-    "assets/Storage Type Sevice Protocol Map.png",
     "molecules/Storage Architecture.md",
+    "assets/Storage Type Sevice Protocol Map.png",
     "assets/Storage Solution Portfolio.png",
     "assets/Storage Services.png",
     "Hybrid Cloud Architecture.md",

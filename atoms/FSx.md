@@ -17,7 +17,7 @@ Amazon FSx is a managed File System service for popular clustered distributed fi
 	- Snapshots, replication, low-cost, compression and data de-duplication.
 	- Point-in-time instantaneous cloning. Useful for testing new workloads. 
 #### FSx for OpenZFS
-Managed OpenZFS
+Managed OpenZFS - implementation of Open Zettabyte File System (ZFS)
 	- [[NFS]] compatible, millions of IOPS.
 	- Point-in-time instantaneous cloning just liske [[#NetApp ONTAP]]. 
 	- Move workloads running on ZFS to AWS. #UseCase 

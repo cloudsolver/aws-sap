@@ -24,22 +24,22 @@ Fig. Architecture
 * Analyze petabyte-scale data where it lives with ease and flexibility.
 * S3 SQL. Pre-configured to work with Glue.
 * Query service to analyze data using SQL. It is serverless.
-* Use cases: run federated queries across relational, nonrelational, object, and custom data sources running on premises or in the cloud. Use ML models in SQL queries or Python. Build distributed big data reconciliation engines. Analyze google analytics data by using AppFlow to store in S3 to query it.
+* Use cases: run federated queries across relational, non-relational, object, and custom data sources running on premises or in the cloud. Use ML models in SQL queries or Python. Build distributed big data reconciliation engines. Analyze google analytics data by using AppFlow to store in S3 to query it.
 #### Performance and Cost Optimization
 
 #Question How can cost and performance be optimized for Athena?
-See: [10 Performance Tips for Athena](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/)
-**Answer**:
+
 - Columnar:Use [[atoms/Parquet|Parquet]] or [[atoms/ORC|ORC]]
 - Partition: Use columnar S3 prefix e.g. `s3://bucket/index/yyyy/mm/dd/hh/object`
 - Compression: Use compression algorithms
 - File Size: Use Large Files 128MB
-> Pay per query based on the amount of data scanned. Save by compressing data, partitioning buckets by column, or converting data to a columnar format like Parquet. Use larger files > 128 MB than many smaller files. #performant  #CostOptimized #BestPractice 
+- Pay per query based on the amount of data scanned. Save by compressing data, partitioning buckets by column, or converting data to a columnar format like Parquet. Use larger files > 128 MB than many smaller files. #performant  #CostOptimized #BestPractice 
 
+See: [10 Performance Tips for Athena](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/)
 ![[CostSavingsAthena.png|512]]
 Fig Performance and Cost Optimization
 
-#### References for Athena
+#### Resources
 1. https://aws.amazon.com/athena/features/
 2. [Athena](https://aws.amazon.com/athena/) 
 

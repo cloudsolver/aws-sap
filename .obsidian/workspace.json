@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Athena.md",
+                "file": "atoms/Organizations.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Athena.md",
+                "file": "atoms/Organizations.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Athena.md",
+                "file": "atoms/Organizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Athena.md",
+                "file": "atoms/Organizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Athena.md"
+                "file": "atoms/Organizations.md"
               }
             }
           }
@@ -172,6 +172,9 @@
   },
   "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
+    "atoms/Fargate.md",
+    "atoms/CodeGuru.md",
+    "atoms/Athena.md",
     "templates/molecule compare.md",
     "atoms/RouteTable.md",
     "atoms/Trusted Advisor.md",
@@ -203,10 +206,7 @@
     "assets/KMS CMK Type Comparison.png",
     "SAP Canvas.canvas",
     "atoms/Macie.md",
-    "atoms/Security Hub.md",
     "assets/Security Hub Integrations.png",
-    "molecules/Encryption Concepts.md",
-    "molecules/Messaging Services.md",
     "assets/ELB Feature Comparison.png",
     "assets/ECS Overview.png",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf"

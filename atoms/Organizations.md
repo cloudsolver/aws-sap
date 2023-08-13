@@ -1,18 +1,20 @@
-### Summary of Organizations
-Organizations include account management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of your business. #AWSService 
-### Organizations Details
 
-> **Advantages**
-> Better isolation from multiple accounts than multiple VPCs in a single account. #secure 
-> Enable CloudTrail on all accounts
-> Establish cross account roles
-> Enable CloudWatch logs centrally
-> Enable multi-region multi-account Config
+AWS Organizations include account management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of your business. #AWSService 
 
-> **Root**
+
+#Q What are the benefits of using organizations?
+
+Better isolation from multiple accounts than multiple VPCs in a single account. #secure 
+Enable CloudTrail on all accounts
+Establish cross account roles
+Enable CloudWatch logs centrally
+Enable multi-region multi-account Config
+
+#Q What is the **Root** of the Organization?
 > The parent container for all the accounts for your organization. If you apply a policy to the root, it applies to all [organizational units (OUs)](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html#organizationalunit) and [accounts](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html#account) in the organization.
 > There is only one root ou which is created by Organizations.
 
+#Q What is an organizational unit (OU)?
 > **OU**
 > A container for [accounts](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html#account) within a [root](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html#root). 
 > An OU also can contain other OUs, enabling you to create a hierarchy.

@@ -1,12 +1,12 @@
 
-AWS Organizations include account management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of your business. #AWSService 
+AWS Organizations include account management and consolidated billing capabilities that enable you to meet better your business's budgetary, security, and compliance needs. #AWSService 
 
 
 #Q What are the benefits of using organizations?
 
 Better isolation from multiple accounts than multiple VPCs in a single account. #secure 
 Enable CloudTrail on all accounts
-Establish cross account roles
+Establish cross-account roles
 Enable CloudWatch logs centrally
 Enable multi-region multi-account Config
 

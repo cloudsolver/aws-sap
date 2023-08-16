@@ -1,6 +1,6 @@
 #Q What are the steps for making CodeDeploy work?
-See: 
-**Answer**: CodeDeploy Agent polls AWS CodeDeploy and when it has a signal, it will pull code and `appspec.yml` to execute all instructions contained within it.
+
+CodeDeploy Agent polls AWS CodeDeploy, and when it has a signal, it will pull code and `appspec.yml` to execute all instructions contained within it.
 ![[CodeDeploy Architecture.png|384]]
 Fig. CodeDeploy Architecture
 
@@ -23,21 +23,22 @@ Table. CodeDeploy Components
 ---
 
 #Q What are the CodeDeploy Deployment Configurations?
-Answer:  
-1. One at a time: One EC2 instance at a time, if one instance fails, then deployment stops
+
+1. One at a time: One EC2 instance at a time; if one instance fails, then deployment stops
 2. Half at a Time: 50%
 3. All At Once; Good for dev env as it's the fastest
 4. Custom: 25% etc.
 ---
 
 #Q How are Failures handled?
-**Answer**: EC2 instances stay in the "failed" state. New deployments will first be deployed to failed instances. 
+EC2 instances stay "failed."
+New deployments will first be deployed to failed cases. 
 
 ---
 
-#Q How are Rollback handled?
-**Answer**: In order to rollback, redeploy old deployment or enable rollback or failure. Automation can be achieved via a [[CW]] alarm. Rollback occurs, by redeploying the last known successful deployment. There is no PITR for applications. 
+#Q How is Rollback handled?
+To rollback, redeploy old deployment or enable rollback or failure. Automation can be achieved via a [[CW]] alarm. Rollback occurs by redeploying the last known successful deployment. There is no PITR for applications. 
 
-#Q Can AWS Lambda deployments use in-place deployment type?
+#Q Can AWS Lambda deployments use an in-place deployment type?
  Answer: No. AWS Lambda compute platform deployments cannot use an in-place deployment type.
 ---

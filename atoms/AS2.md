@@ -1,8 +1,8 @@
-### Summary of AS2
-AS2 is an [[HTTP]] based protocol to transmit [[EDI]] messages safely, quickly and cheaply. 
-### AS2 Details
+AS2 is an [[HTTP]] based protocol to transmit [[EDI]] messages safely, quickly, and cheaply. 
 
-#### References for AS2
+
+
+**Resources**
 1. https://www.seeburger.com/info/what-is-as2/
 
 ---

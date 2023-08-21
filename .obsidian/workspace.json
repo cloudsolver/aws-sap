@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Kubernetes.md",
+                "file": "AWS SAP-C02.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Kubernetes.md",
+                "file": "AWS SAP-C02.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Kubernetes.md",
+                "file": "AWS SAP-C02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Kubernetes.md",
+                "file": "AWS SAP-C02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Kubernetes.md"
+                "file": "AWS SAP-C02.md"
               }
             }
           }
@@ -172,6 +171,10 @@
   },
   "active": "7ba2ea80b9e3c535",
   "lastOpenFiles": [
+    "assets/AWS Services Limitations.png",
+    "AWS SAP-C02.md",
+    "assets/AWS SAP Services.png",
+    "atoms/Kubernetes.md",
     "atoms/CodeDeploy.md",
     "atoms/AS2.md",
     "atoms/CloudHSM.md",
@@ -200,15 +203,10 @@
     "atoms/Docker.md",
     "atoms/Lambda.md",
     "atoms/WA Tool.md",
-    "atoms/WAF.md",
-    "atoms/Access Advisor.md",
     "assets/Well-Architected Tool.png",
-    "AWS SAP-C02.md",
     "assets/KMS CMK Type Comparison.png",
     "SAP Canvas.canvas",
     "assets/Security Hub Integrations.png",
-    "assets/ELB Feature Comparison.png",
-    "assets/ECS Overview.png",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf"
   ]
 }

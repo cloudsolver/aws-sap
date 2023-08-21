@@ -259,7 +259,7 @@ Familiarity with AWS CLI, AWS APIs, AWS CloudFormation templates, the AWS Billin
 • Amazon [[GuardDuty]]
 • AWS Identity and Access Management ([[IAM]])
 • Amazon [[Inspector]]
-• AWS Key Management Service (AWS [[KMS]])
+• **AWS Key Management Service** (AWS [[KMS]])
 • Amazon [[Macie]]
 • AWS [[Network Firewall]]
 • AWS Resource Access Manager (AWS [[RAM]])
@@ -280,3 +280,7 @@ Familiarity with AWS CLI, AWS APIs, AWS CloudFormation templates, the AWS Billin
 • Amazon [[S3]]
 • Amazon [[S3 Glacier]]
 • AWS [[Storage Gateway]]
+
+![[AWS SAP Services.png]]
+
+![[AWS Services Limitations.png]]

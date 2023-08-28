@@ -43,6 +43,12 @@ Build a new EFS file system that is configured with Max I/O performance mode. Ut
 ### On Prem
 Amazon EC2 instances can access your file system across Availability Zones and Regions. By contrast, on-premises servers can access file systems using AWS Direct Connect or AWS Virtual Private Network (AWS VPN).
 
+### Quirks, Limitations and Tradeoffs
+- Amazon EFS does not support mounting from Amazon EC2 Windows instances.
+-  File systems in the Max I/O mode can scale to higher levels of aggregate throughput and IOPS. The tradeoff is slightly higher latencies for file metadata operations.
+- Using Provisioned Throughput mode, you can specify the throughput of your file system independent of the amount of data stored.
+
+
 **References** 
 
 [Amazon EFS Standard-Infrequent Access](https://aws.amazon.com/efs/features/infrequent-access/) 

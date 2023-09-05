@@ -47,24 +47,24 @@ Fig. Updates via CloudFormation
 
 #Question  What are CF **Parameters**?
 - Parameters allow you to pass values to your templates when creating or updating a stack. These values can include information such as instance sizes, key pair names, and database passwords. By using parameters, you can create more flexible and reusable templates that can be used for different environments or use cases.
-`Fn::Ref` or simply `!Ref`. You don't know the value upfront.
+`Fn::Ref` or simply `!Ref`. You need to know the value upfront.
 
-#Question  Which section of a CloudFormation template does not allow for conditions?
+#Question Name the section that does not allow for conditions.
 - Parameters. This section is a declaration to be referenced later in the template.
 
 #Question  What are **pseudo-parameters**?
-Pseudo-parameters are predefined by CloudFormation and are available for use in all stacks. They provide information about the stack and its environment. Pseudo-parameters cannot be changed and their values are automatically populated by CloudFormation during stack creation or update. Examples of pseudo-parameters include `AWS::Region`, which returns the region in which the stack is being created or updated, and `AWS::StackName`, which returns the name of the stack.
+CloudFormation predefines pseudo-parameters and is available for use in all stacks. They provide information about the stack and its environment. Pseudo-parameters cannot be changed, and their values are automatically populated by CloudFormation during stack creation or update. Examples of pseudo-parameters include `AWS::Region`, which returns the region in which the stack is being created or updated, and `AWS::StackName`, which bears the stack's name.
 
 ---
 
-#Q What are **Mappings** and how do you access them ?
-Answer: This is hard-coded reference KV pairs. You know the values up front. Use `!FindInMap [MapName, FirstLevelKey, SecondLevelKey`
+#Q What are **Mappings**, and how do you access them ?
+Answer: This is hard-coded reference KV pairs. You know the values upfront. Use `!FindInMap [MapName, FirstLevelKey, SecondLevelKey`
 
 ---
 
 #Q What are **Outputs** ?
-Cross stack references can be created so that experts in a company can create and maintain their portion of the cloud formation stacks. Outputs are a way to provide information about the resources that were created by the CloudFormation stack. They enable you to expose useful information about the resources that can be used by other stacks or applications.
-`Fn::ImportValue` and `!ImportValue` are used to import the outputs into a cloud-formation thereby linking them.
+Cross-stack references can be created so that experts in a company can create and maintain their portion of the cloud formation stacks. Outputs are a way to provide information about the resources that were created by the CloudFormation stack. They enable you to expose useful information about the resources that other stacks or applications can use.
+`Fn::ImportValue` and `!ImportValue` import the outputs into a cloud formation thereby linking them.
 
 ---
 #Q What are **Conditions**?
@@ -72,18 +72,18 @@ Logical controls that can execute based on logic.
 ![[CloudFormation Conditions.png]]
 
 **Stacks**
-- A single unit that includes all the resources build via the template.
+- A single unit that includes all the resources built via the template.
 - Nested Stacks are reused.
 - Cross stacks use Output and are shared.
-- Admin accounts create Stack Sets- these are across multiple accounts and regions.
+- Admin accounts create Stack Sets across multiple accounts and regions.
 **Change Sets**
-While it does not tell us if it will succeed, it will give us a summary of proposed changes that can be generated before updating a running stack. e.g. renaming a database will delete the database (and the data) - good to know. `Fn::And`, 
+While it does not tell us if it will succeed, it will give us a summary of proposed changes that can be generated before updating a running stack. e.g., renaming a database will delete the database (and the data) - good to know. `Fn::And`, 
 ![[cloudformation designer.png]]
 Fig. CloudFormation Designer
 
-I find it quite impractical. JSON is unusable, YAML is readable but it's super clunky.
+It is quite impractical. JSON is unusable, and YAML is readable, but it's super clunky.
 
-#Question  How is CloudFormation rolled back handled with notifications?
+#Question: How is CloudFormation rolled back handled with notifications?
 Answer: CF needs [[SNS]] integration enabled. 
 If CF fails, the stack will delete the resources, and the last known successful stack will be back.
 ![[CF-SNS Integration.png]]

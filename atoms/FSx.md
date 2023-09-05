@@ -3,13 +3,21 @@ Amazon FSx is a managed File System service for popular clustered distributed fi
 ![](FSx_file_systems.png)
 
 #### FSx for Windows 
-- Supports SMB, NTFS, AD integration, ACLs, user-quotas and Linux mountable on EC2. Supports Microsoft's [[DFS]] and multi-AZ. Data is backed up to S3.
+- Supports SMB, NTFS, AD integration, ACLs, user-quotas, and Linux mountable on EC2. Supports Microsoft's [[DFS]] and multi-AZ. Data is backed up to S3.
 - Use Multi-AZ for high-availability
+
 #### FSx for Lustre
+
+#Q What are the use cases for FSx for Lustre?
 - [Lustre](Lustre.md) is used for [[ML]], [[HPC]], Video processing, Financial Modeling or other sub-latency, high-throughput, scalable workloads. Seamless integration with [[S3]] - read and write to it from FSx. VPN and [[DX]] are support for [[Hybrid Cloud Architecture]]
-	- Scratch File System: Performance over durability and availability. High **Bursts** 6x faster. No replication - only one copy. Short term storage.
+	- Scratch File System: Performance over durability and availability. High **Bursts** 6x faster. No replication - only one copy. Short-term storage.
 	- Persistent File System: Multi-AZ, files are restored in minutes; useful for long-term storage.
-	- Seamless integration with [[S3]]
+	#Q How is FSx for Lustre integrated with S3?
+	- Seamless integration with [[S3]] - when a bucket is connected to it - objects on S3 show up as files on FSx. 
+	- File updates are written back to S3.
+	#Q How scalable is FSx?
+	An FSx for Lustre file system is capable of delivering hundreds of gibibytes (GiB) per second of throughput and millions of IOPS.
+
 #### FSx for NetApp ONTAP
 - FSx for NetApp ONTAP support iSCSI for block storage, NFS protocol for POSIX-compliant access, and SMB protocol for Windows-compatible access.
 - NetApp ONTAP is compatible with Linux, Windows, MacOS, VMWare Cloud on AWS, [[Workspaces]], [[AppStream]], [[EC2]], [[ECS]], and [[EKS]].

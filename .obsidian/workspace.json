@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "37dcaa4df0f73f4f",
+        "id": "cabb28b7786d1bbf",
         "type": "tabs",
         "children": [
           {
-            "id": "7ba2ea80b9e3c535",
+            "id": "34a110bbe91cf970",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/EFS.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "2ea2ebc2de65cd31"
-          }
-        ]
-      },
-      {
-        "id": "3f9d3b5355645fac",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "25bf54a3b135a16f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/EFS.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "2ea2ebc2de65cd31"
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -68,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "EFS",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/EFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/EFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "atoms/EFS.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -170,8 +142,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "7ba2ea80b9e3c535",
+  "active": "34a110bbe91cf970",
   "lastOpenFiles": [
+    "atoms/CloudFormation.md",
+    "atoms/RDP.md",
+    "atoms/AD.md",
+    "atoms/FSx.md",
+    "atoms/EFS.md",
     "AWS SAP-C02.md",
     "assets/AWS Services Limitations.png",
     "assets/AWS SAP Services.png",
@@ -186,8 +163,6 @@
     "templates/molecule compare.md",
     "atoms/RouteTable.md",
     "atoms/Trusted Advisor.md",
-    "atoms/EFS.md",
-    "atoms/FSx.md",
     "molecules/Storage Architecture.md",
     "assets/Storage Type Sevice Protocol Map.png",
     "assets/Storage Solution Portfolio.png",
@@ -202,8 +177,6 @@
     "atoms/EB.md",
     "atoms/ECR.md",
     "atoms/Docker.md",
-    "atoms/Lambda.md",
-    "atoms/WA Tool.md",
     "assets/Well-Architected Tool.png",
     "assets/KMS CMK Type Comparison.png",
     "SAP Canvas.canvas",

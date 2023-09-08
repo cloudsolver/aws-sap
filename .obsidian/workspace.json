@@ -11,8 +11,12 @@
             "id": "34a110bbe91cf970",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Lambda.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "connection pool",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "atoms/Lambda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "atoms/Lambda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "atoms/Lambda.md"
+              }
             }
           }
         ],
@@ -144,6 +152,10 @@
   },
   "active": "34a110bbe91cf970",
   "lastOpenFiles": [
+    "atoms/Cognito User Pools.md",
+    "atoms/EC2 Spot Instance.md",
+    "atoms/RDS.md",
+    "atoms/Lambda.md",
     "atoms/CloudFormation.md",
     "atoms/RDP.md",
     "atoms/AD.md",
@@ -173,10 +185,6 @@
     "molecules/GW.md",
     "assets/Endpoint Comparison.png",
     "molecules/IAM.md",
-    "atoms/EventBridge.md",
-    "atoms/EB.md",
-    "atoms/ECR.md",
-    "atoms/Docker.md",
     "assets/Well-Architected Tool.png",
     "assets/KMS CMK Type Comparison.png",
     "SAP Canvas.canvas",

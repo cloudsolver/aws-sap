@@ -2,19 +2,19 @@
 Simple Notification Service is a fully managed instantaneous pub/sub service for Application to Application and Application to Person messaging. It supports SMS text messages and MobilePush. #AWSService 
 ### SNS Details
 - 100,000 topics, 12,500,000 subscribers per topic.
-- Many Amazon Services connect to SNS e.g AWS Budgets, CloudFormation, [[ASG]], S3, Dynamo, DMS etc.
+- Many Amazon Services connect to SNS e.g. AWS [[Budgets]] , CloudFormation, [[ASG]], S3, [[DynamoDB]] , [[DMS]] etc.
 - SNS is both highly reliable and scalable, it provides significant advantages to developers who build applications that rely on real-time events.
 - SNS can send `Email-JSON` for applications to read and process emails. Humans get text-based emails only.
 - SNS Mobile Push lets you use SNS to deliver push notifications to Apple, Google, FireOS and Windows devices as well as Android.
 #### Publishing Models
 - Topic Publish
-	- Create a topic
-	- Create a subscription
+	- Create a topic.
+	- Create a subscription.
 	- Publish to the topic.
 - Direct Publish
-	- Create a platform application
-	- Create a platform endpoint
-	- Publish to platform endpoint
+	- Create a platform application.
+	- Create a platform endpoint.
+	- Publish to platform endpoint.
 	- Various Mobile SDKs.
 #### SNS Security
 SNS Access Policies (similar to S3 bucket policies)

@@ -1,5 +1,5 @@
 ### Summary of SNS
-Simple Notification Service is a fully managed instantaneous pub/sub service for Application to Application and Application to Person messaging. It supports SMS text messages and MobilePush. #AWSService 
+Simple Notification Service is a fully managed instantaneous pub/sub service for Application-to-Application and Application-to-Person messaging. It supports SMS text messages and MobilePush. #AWSService 
 ### SNS Details
 - 100,000 topics, 12,500,000 subscribers per topic.
 - Many Amazon Services connect to SNS e.g. AWS [[Budgets]] , CloudFormation, [[ASG]], S3, [[DynamoDB]] , [[DMS]] etc.

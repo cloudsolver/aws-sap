@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/SNS.md",
+                "file": "Hybrid Cloud Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/SNS.md",
+                "file": "Hybrid Cloud Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/SNS.md",
+                "file": "Hybrid Cloud Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/SNS.md"
+                "file": "Hybrid Cloud Architecture.md"
               }
             }
           }
@@ -151,6 +151,9 @@
   },
   "active": "34a110bbe91cf970",
   "lastOpenFiles": [
+    "README.md",
+    "Hybrid Cloud Architecture.md",
+    "atoms/SNS.md",
     "Event Driven Architectures.md",
     "molecules/DR.md",
     "atoms/Lambda.md",
@@ -176,13 +179,10 @@
     "templates/molecule compare.md",
     "atoms/RouteTable.md",
     "atoms/Trusted Advisor.md",
-    "molecules/Storage Architecture.md",
     "assets/Storage Type Sevice Protocol Map.png",
     "assets/Storage Solution Portfolio.png",
     "assets/Storage Services.png",
-    "Hybrid Cloud Architecture.md",
     "assets/Storage Capacity Comparison.png",
-    "atoms/S3 Storage Class.md",
     "assets/Endpoint Comparison.png",
     "assets/Well-Architected Tool.png",
     "assets/KMS CMK Type Comparison.png",

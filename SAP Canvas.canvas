@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"type":"file","file":"Event Driven Architectures.md","id":"32e7fe257d8ade10","x":-227,"y":88,"width":400,"height":400},
-		{"type":"file","file":"DR.md","id":"2d4e3d19adae0fb3","x":-300,"y":-260,"width":253,"height":158}
+		{"type":"file","file":"molecules/DR.md","id":"2d4e3d19adae0fb3","x":-300,"y":-260,"width":253,"height":158}
 	],
 	"edges":[
 		{"id":"bd342b8eb5bd6997","fromNode":"2d4e3d19adae0fb3","fromSide":"right","toNode":"32e7fe257d8ade10","toSide":"top","label":"Cross"}

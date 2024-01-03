@@ -1,5 +1,5 @@
 ### Summary of Hybrid Cloud Architecture
-**Hybrid cloud architecture** is the combination of public and [private clouds](https://www.vmware.com/topics/glossary/content/private-cloud.html) by a wide area network or broadband connection, through which applications and data can be shared and which can be managed as a single IT architecture.
+**Hybrid cloud architecture** is the combination of public and [private clouds](https://www.vmware.com/topics/glossary/content/private-cloud.html) by a wide-area network or broadband connection, through which applications and data can be shared and which can be managed as a single IT architecture.
 
 (a) Connect over the Internet
 (b) Connect over VPN

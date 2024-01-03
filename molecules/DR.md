@@ -62,6 +62,8 @@ Data is replicated and backup of databases, object stores are always on. However
 You must be able to rely on your network to be available. You might be running your application across multiple AWS Regions to support disaster recovery, higher availability, lower latency, or compliance. If Global Accelerator detects that your application endpoint is failing in the primary AWS Region, it instantly triggers traffic re-routing to your application endpoint in the next available, closest AWS Region.
 
 #### Aurora Global Database
+
+Operational databases are an essential component of many solution architectures.
 [[Aurora]] global databases span multiple AWS Regions, enabling low latency global reads and providing fast recovery from the rare outage that might affect an entire AWS Region. An Aurora global database has a primary DB cluster in one Region, and up to five secondary DB clusters in different Regions.
 
 With the warm standby strategy the application can handle traffic (at reduced capacity levels) immediately so this will reduce the RTO.

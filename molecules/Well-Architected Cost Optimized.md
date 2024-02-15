@@ -26,7 +26,7 @@
 	1. AWS cost management service features: Cost Allocation Tags, Multi-Account Billing.
 	2. AWS Cost Management tools with appropriate use cases: Cost Explorer, AWS Budgets, AWS Cost and Usage Report.
 	3. AWS [[Global Infrastructure]]: Availability Zone, Regions.
-	4. AWS purchasing options: Spot Instances, Reserved Instances, Savings Plans.
+	4. AWS purchasing options: Spot Instances, Reserved Instances, [[Savings Plans]].
 	5. Distributed compute strategies: Edge processing.
 	6. Hybrid compute options: AWS Outposts, Snowball Edge.
 	7. Instance types, families, and sizes: Memory optimized, compute optimized, virtualization.

@@ -1,18 +1,19 @@
 ## Summary
 
 ## Solution Architectures Details
-- You can achieve HA  with a multi-AZ deployment but it doesn't protect against DR.
-- [[DR]] can be achieved in a variety of ways, usually involved multiple AZ within or across regions.
-- [[ELB]] does support sticky sessions, however it does have disadvantages.
-- Web Clients can store full session data, however it makes the session large and increases network traffic and might increase latency.
-- [[ElastiCache]] offers sub-milli-second latency and can be used for Shopping Carts as well DynamoDB
+- You can achieve HA  with a multi-AZ deployment, but it doesn't protect against DR.
+- [[DR]] can be achieved in various ways, usually involving multiple AZs within or across regions.
+- [[ELB]] does support sticky sessions. However, it does have disadvantages.
+- Web Clients can store complete session data. However, it makes the session large, increases network traffic, and might increase latency.
+- [[ElastiCache]] offers sub-milli-second latency. It can be used for Shopping Carts.  DynamoDB is a good fit as well.
 
 ### Stateless Application Architecture
-* Elastic IP and DNS round-robin is not resilient. Because TTL of DNS round-robin can cause partial failure when an instance goes down.
-* Adding [[ALB]] and pointing [[DNS]] to ALB can offer protections, because ALB can point to private [[EC2]] instances with health checks. However, ALBs and EC2 instances can fail in the AZ.
+
+* Elastic IP and DNS round-robin are not resilient because the TTL of DNS round-robin can cause partial failure when an instance goes down.
+* Adding [[ALB]] and pointing [[DNS]] to ALB can offer protection because ALB can point to private [[EC2]] instances with health checks. However, ALBs and EC2 instances can fail in the AZ.
 * Multi-AZ ALB, EC2 can offer High Availability with failover to another AZ.
-* Multi-Region with a secondary failover region and Multi-AZ in each region can offer [[DR | Disaster Recovery]] and business continuity along with high availability at a higher cost.
-* Reserved Instances, and Auto Scaling group can help save costs. #CostOptimized 
+* A multi-Region strategy with a secondary failover region and multi-AZ in each region can offer [[DR|Disaster Recovery]], business continuity, and high availability at a higher cost.
+* Reserved Instances and Auto Scaling groups can help save costs. #CostOptimized 
 
 ### Stateful Application Architecture
 - ELB does support sticky sessions, however it does have disadvantages.

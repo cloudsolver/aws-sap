@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hybrid Cloud Architecture.md",
+                "file": "Solution Architectures.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hybrid Cloud Architecture.md",
+                "file": "Solution Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hybrid Cloud Architecture.md",
+                "file": "Solution Architectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hybrid Cloud Architecture.md"
+                "file": "Solution Architectures.md"
               }
             }
           }
@@ -151,8 +151,16 @@
   },
   "active": "34a110bbe91cf970",
   "lastOpenFiles": [
-    "README.md",
+    "Well-Architected Framework.md",
+    "atoms/Savings Plans.md",
+    "molecules/Well-Architected Cost Optimized.md",
+    "atoms/Glacier.md",
+    "atoms/S3.md",
+    "molecules/Well-Architected Secure.md",
+    "Global Infrastructure.md",
+    "SAP Canvas.canvas",
     "Hybrid Cloud Architecture.md",
+    "README.md",
     "atoms/SNS.md",
     "Event Driven Architectures.md",
     "molecules/DR.md",
@@ -172,13 +180,6 @@
     "atoms/CodeDeploy.md",
     "atoms/AS2.md",
     "atoms/CloudHSM.md",
-    "atoms/Organizations.md",
-    "atoms/Fargate.md",
-    "atoms/CodeGuru.md",
-    "atoms/Athena.md",
-    "templates/molecule compare.md",
-    "atoms/RouteTable.md",
-    "atoms/Trusted Advisor.md",
     "assets/Storage Type Sevice Protocol Map.png",
     "assets/Storage Solution Portfolio.png",
     "assets/Storage Services.png",
@@ -186,7 +187,6 @@
     "assets/Endpoint Comparison.png",
     "assets/Well-Architected Tool.png",
     "assets/KMS CMK Type Comparison.png",
-    "SAP Canvas.canvas",
     "assets/Security Hub Integrations.png",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf"
   ]

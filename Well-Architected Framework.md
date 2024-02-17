@@ -1,6 +1,6 @@
-### Summary of Well-Architected_Framework
+### Summary of Well-Architected Framework
 
-AWS Well-Architected Framework helps cloud architects build secure, high-performing, resilient and efficient infrastructure for a variety of applications and workloads.
+AWS Well-Architected Framework helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for various applications and workloads.
 
 ### Well-Architected_Framework Details
 ### Pillars

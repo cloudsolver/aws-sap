@@ -1,4 +1,4 @@
-Obsidian notes for AWS Cloud technology with a focus on certifications.
+Obsidian notes for AWS Cloud technology with a focus on 'the five' certifications.
 
 
 There are many resources online. It is best to use the following.

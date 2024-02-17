@@ -13,13 +13,65 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solution Architectures.md",
+                "file": "atoms/OSI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f233ab0cfd1b76c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/NAT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c353f0631b8a72d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/OSI Layer 1 - Physical.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd98f8f33f9f805c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/ARP.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "945716de62781deb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/MAC.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,8 +100,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "NAT",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -65,7 +117,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solution Architectures.md",
+                "file": "atoms/NAT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solution Architectures.md",
+                "file": "atoms/NAT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solution Architectures.md"
+                "file": "atoms/NAT.md"
               }
             }
           }
@@ -149,8 +202,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "34a110bbe91cf970",
+  "active": "f233ab0cfd1b76c9",
   "lastOpenFiles": [
+    "atoms/IP Address.md",
+    "atoms/IP.md",
+    "atoms/OSI.md",
+    "atoms/OSI Layer 7 - Application.md",
+    "atoms/OSI Layer 6 - Presentation.md",
+    "atoms/OSI Layer 5 - Session.md",
+    "atoms/OSI Layer 2 - Data.md",
+    "atoms/OSI Layer 3 - Network.md",
+    "atoms/FIPS.md",
+    "assets/Pasted image 20240217145812.png",
+    "atoms/OSI Layer 4 - Transport.md",
+    "atoms/TCP.md",
+    "assets/Pasted image 20240217145035.png",
+    "atoms/OSI Layer 1 - Physical.md",
+    "atoms/MACsec.md",
+    "assets/Pasted image 20240217142234.png",
+    "atoms/TTL.md",
+    "atoms/ARP.md",
+    "assets/Pasted image 20240217140107.png",
+    "atoms/MAC.md",
+    "assets/Pasted image 20240217131754.png",
+    "assets/Pasted image 20240217125807.png",
+    "assets/Pasted image 20240217123817.png",
+    "assets/Pasted image 20240217122254.png",
+    "assets/Pasted image 20240217115958.png",
+    "atoms/EC2.md",
+    "Solution Architectures.md",
     "Well-Architected Framework.md",
     "atoms/Savings Plans.md",
     "molecules/Well-Architected Cost Optimized.md",
@@ -160,34 +240,7 @@
     "Global Infrastructure.md",
     "SAP Canvas.canvas",
     "Hybrid Cloud Architecture.md",
-    "README.md",
-    "atoms/SNS.md",
-    "Event Driven Architectures.md",
-    "molecules/DR.md",
-    "atoms/Lambda.md",
-    "atoms/Cognito User Pools.md",
-    "atoms/EC2 Spot Instance.md",
-    "atoms/RDS.md",
-    "atoms/CloudFormation.md",
-    "atoms/RDP.md",
-    "atoms/AD.md",
-    "atoms/FSx.md",
-    "atoms/EFS.md",
-    "AWS SAP-C02.md",
     "assets/AWS Services Limitations.png",
-    "assets/AWS SAP Services.png",
-    "atoms/Kubernetes.md",
-    "atoms/CodeDeploy.md",
-    "atoms/AS2.md",
-    "atoms/CloudHSM.md",
-    "assets/Storage Type Sevice Protocol Map.png",
-    "assets/Storage Solution Portfolio.png",
-    "assets/Storage Services.png",
-    "assets/Storage Capacity Comparison.png",
-    "assets/Endpoint Comparison.png",
-    "assets/Well-Architected Tool.png",
-    "assets/KMS CMK Type Comparison.png",
-    "assets/Security Hub Integrations.png",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf"
   ]
 }

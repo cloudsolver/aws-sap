@@ -2,7 +2,7 @@ Gateway Load Balancer operates at Layer 3 of the OSI model.
 
 ### Layer 3
 
-- Gateway: operates at [Layer 3](OSI.md#Layer%203): [IP](TCP-IP.md#IP%20Features) Protocol.
+- Gateway: operates at [Layer 3](OSI.md#Layer%203): [IP](TCP.md#IP%20Features) Protocol.
 - 2 Functions: 
 	- Transparent Network Gateway: Single entry/exit for all traffic.
 	- Load Balancer: distributes traffic to virtual appliances.

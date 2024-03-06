@@ -15,6 +15,7 @@
               "state": {
                 "file": "atoms/OSI.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -25,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/NAT.md",
+                "file": "atoms/IP Address.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,12 +34,12 @@
             }
           },
           {
-            "id": "4c353f0631b8a72d",
+            "id": "26b8f25a5ff5f64a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/OSI Layer 1 - Physical.md",
+                "file": "atoms/IPSEC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,12 +67,13 @@
               "state": {
                 "file": "atoms/MAC.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NAT",
+                "query": "IPSe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -138,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/NAT.md",
+                "file": "atoms/IPSEC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/NAT.md",
+                "file": "atoms/IPSEC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/NAT.md"
+                "file": "atoms/IPSEC.md"
               }
             }
           }
@@ -202,45 +204,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f233ab0cfd1b76c9",
+  "active": "26b8f25a5ff5f64a",
   "lastOpenFiles": [
+    "atoms/Firewall.md",
+    "atoms/BGP.md",
+    "atoms/ARP.md",
+    "assets/Pasted image 20240219121733.png",
+    "atoms/Firewall Manager.md",
+    "atoms/Ethernet.md",
+    "atoms/Autonomous System.md",
+    "molecules/Data and Analytics Services.md",
+    "atoms/EFA.md",
+    "atoms/ECS Rolling Updates.md",
+    "atoms/ECS EC2 Launch Type.md",
+    "atoms/ECS Autoscaling.md",
+    "atoms/ECR.md",
+    "atoms/ECMR.md",
+    "atoms/TLS.md",
+    "assets/Pasted image 20240218212027.png",
+    "atoms/VLAN.md",
+    "atoms/OSI Layer 1 - Physical.md",
+    "assets/Pasted image 20240218181635.png",
+    "assets/Pasted image 20240218175749.png",
     "atoms/IP Address.md",
-    "atoms/IP.md",
+    "atoms/PAT.md",
+    "assets/Pasted image 20240218092347.png",
     "atoms/OSI.md",
+    "atoms/NAT.md",
+    "atoms/IP.md",
     "atoms/OSI Layer 7 - Application.md",
     "atoms/OSI Layer 6 - Presentation.md",
     "atoms/OSI Layer 5 - Session.md",
     "atoms/OSI Layer 2 - Data.md",
     "atoms/OSI Layer 3 - Network.md",
-    "atoms/FIPS.md",
     "assets/Pasted image 20240217145812.png",
-    "atoms/OSI Layer 4 - Transport.md",
-    "atoms/TCP.md",
     "assets/Pasted image 20240217145035.png",
-    "atoms/OSI Layer 1 - Physical.md",
-    "atoms/MACsec.md",
     "assets/Pasted image 20240217142234.png",
-    "atoms/TTL.md",
-    "atoms/ARP.md",
     "assets/Pasted image 20240217140107.png",
-    "atoms/MAC.md",
     "assets/Pasted image 20240217131754.png",
-    "assets/Pasted image 20240217125807.png",
-    "assets/Pasted image 20240217123817.png",
-    "assets/Pasted image 20240217122254.png",
-    "assets/Pasted image 20240217115958.png",
-    "atoms/EC2.md",
-    "Solution Architectures.md",
-    "Well-Architected Framework.md",
-    "atoms/Savings Plans.md",
-    "molecules/Well-Architected Cost Optimized.md",
-    "atoms/Glacier.md",
-    "atoms/S3.md",
-    "molecules/Well-Architected Secure.md",
-    "Global Infrastructure.md",
     "SAP Canvas.canvas",
-    "Hybrid Cloud Architecture.md",
-    "assets/AWS Services Limitations.png",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf"
   ]
 }

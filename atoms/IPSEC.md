@@ -1,4 +1,24 @@
 IPSec adds encryption and authentication to make the Internet Protocol (IP) more secure. It scrambles the data at its source and unscrambles it at its destination. It also authenticates the source of the data. [Source](https://aws.amazon.com/what-is/ipsec/)
+
+### Phases
+- IKE Phase 1 (Slow and Heavy)
+	- Authenticate: Pre-shared key-/passwords shared
+	- Using Asymmetric encryption to agree on, an create a shared Symmetric Key: Diffie-Hellman (DH) Keys created via public keys - symmetric encryption.
+	- IKE SA Created 
+- IKE Phase 2 (Fast and Agile)
+	- Uses the keys agreed in phase 1
+	- Agree encryption method, and keys used for bulk transfer
+	- Created IPSEC SA - phase 2 tunnel (architecturally running over IKE Phase 1)
+
+### IPSEC Types
+
+
+**Policy Based**: "Who and What" focus. Based on source, destination IP addresses, protocol and port. When a traffic matches a policy, it is encrypted and sent through the tunnel. Simple, and static.
+
+**Route Based**: "How" focus. Creates a Virtual interface (aka tunnel interface); routing protocols or static routes are ten used to direct traffic to this tunnel interface without needing to specify source IP. Scalable and complex.
+
+### IPSec Modes
+
 ![[IPSec Modes.png|512]]
 Fig. Modes [Source](https://www.twingate.com/blog/ipsec-tunnel-mode)
 

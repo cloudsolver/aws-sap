@@ -1,5 +1,5 @@
 ### Summary of Firewall Manager
-Centrally configure and manage firewall rules across accounts and applications. Useful for multi-account [[Organizations]] to enable common security policy. #AWSService 
+Centrally configure and manage [[Firewall|firewall]] rules across accounts and applications. Useful for multi-account [[Organizations]] to enable common security policy. #AWSService 
 
 ### Firewall Manager Details
 

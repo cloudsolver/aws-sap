@@ -2,14 +2,20 @@
 Domain Name System (DNS) is a hierarchical naming structure that translates host names to IP addresses.
 
 ## DNS Details
-URL resolution happens right to left.
+
+![[DNS Hierarchical Design.png]]
+Fig. DNS Hierarchical Design
+URL resolution happens right to the left.
 https://www.resume.rohitsood.com 
 `www.resume.rohitsood.com.` < `.` is the root domain.
  `.com` is the Top-Level Domain.
-`.rohitsood.com` is the Second-Level Domain .
+`.rohitsood.com` is the Second-Level Domain.
 
 ### Browser Route
-_This is what happens when you want to visit a website?_
+_This is what happens when you want to visit a website.
+![[Pasted image 20240601113050.png]]
+Fig. Walking the Tree
+
 ![DNS Resolver|600](https://cf-assets.www.cloudflare.com/slt3lc6tev37/1NzaAqpEFGjqTZPAS02oNv/bf7b3f305d9c35bde5c5b93a519ba6d5/what_is_a_dns_server_dns_lookup.png)
 1. User types in the URL into the browser.
 	1. It connects to a local DNS server or a DNS resolver IP.
@@ -30,6 +36,7 @@ _This is what happens when you want to visit a website?_
 
 ## Domain Registrar
 - Registers Second Level Domain
+![[Domain Registering Process.png]]
 ### DNS Records
 * Each record contains domain / sub-domain name.
 [Route 53](Route%2053.md)

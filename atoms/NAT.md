@@ -5,3 +5,8 @@ NAT Traversal performs two tasks:
 1.  Detects if both ends support NAT-T  
 2.  Detects NAT devices along the transmission path (NAT-Discovery)
 [More](https://community.cisco.com/t5/security-knowledge-base/how-does-nat-t-work-with-ipsec/ta-p/3119442)
+
+Static NAT: Permanent IP. is how [[IGW]] works.
+Dynamic NAT: IP comes from a pool temporarily.
+
+See [[PAT]] 

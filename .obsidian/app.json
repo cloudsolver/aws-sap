@@ -6,5 +6,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "atoms",
   "attachmentFolderPath": "assets",
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "shortest",
+  "propertiesInDocument": "source"
 }

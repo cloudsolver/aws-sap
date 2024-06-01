@@ -39,10 +39,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/IPSEC.md",
+                "file": "atoms/DNS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "5dcc1ef9af38c2f5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Domain Registering Process.png"
+              }
+            }
+          },
+          {
+            "id": "2b30c228eb879a6d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/DNS Hierarchical Design.png"
               }
             }
           },
@@ -102,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IPSe",
+                "query": "DNS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -140,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/IPSEC.md",
+                "file": "atoms/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/IPSEC.md",
+                "file": "atoms/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/IPSEC.md"
+                "file": "atoms/DNS.md"
               }
             }
           }
@@ -206,6 +226,11 @@
   },
   "active": "26b8f25a5ff5f64a",
   "lastOpenFiles": [
+    "assets/Domain Registering Process.png",
+    "atoms/DNS.md",
+    "assets/Pasted image 20240601113050.png",
+    "assets/DNS Hierarchical Design.png",
+    "atoms/IPSEC.md",
     "atoms/Firewall.md",
     "atoms/BGP.md",
     "atoms/ARP.md",
@@ -234,14 +259,8 @@
     "atoms/IP.md",
     "atoms/OSI Layer 7 - Application.md",
     "atoms/OSI Layer 6 - Presentation.md",
-    "atoms/OSI Layer 5 - Session.md",
-    "atoms/OSI Layer 2 - Data.md",
-    "atoms/OSI Layer 3 - Network.md",
     "assets/Pasted image 20240217145812.png",
     "assets/Pasted image 20240217145035.png",
-    "assets/Pasted image 20240217142234.png",
-    "assets/Pasted image 20240217140107.png",
-    "assets/Pasted image 20240217131754.png",
     "SAP Canvas.canvas",
     "assets/caching-at-scale-with-redis-updated-2021-12-04.pdf"
   ]

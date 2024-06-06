@@ -1,7 +1,7 @@
 ## Summary
 Domain Name System (DNS) is a hierarchical naming structure that translates host names to IP addresses.
 
-## DNS Details
+## DNS Hierarchical Design
 
 ![[DNS Hierarchical Design.png]]
 Fig. DNS Hierarchical Design
@@ -41,6 +41,7 @@ Fig. Walking the Tree
 * Each record contains domain / sub-domain name.
 [Route 53](Route%2053.md)
 ### Zone File
+
 ### Hosted Zones
 - Container for records that define how to route traffic to a domain and sub-domains.
 - *Public Hosted Zones* contain records for public domain names.

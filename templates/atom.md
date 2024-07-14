@@ -1,8 +1,16 @@
 ### Summary of {{title}}
 
-### {{title}} Details
+### Question
+- What is xxx yyy {{title}}
+### Evidence 
+- Evidence 1
+### Conclusion
+- What can we conclude
 
 ---
+
+### Related Notes
+
 **References for {{title}}**
 1.  
  

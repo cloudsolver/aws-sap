@@ -1,7 +1,7 @@
 ## Summary
 Domain Name System (DNS) is a hierarchical naming structure that translates host names to IP addresses.
 
-## DNS Details
+## DNS Hierarchical Design
 
 ![[DNS Hierarchical Design.png]]
 Fig. DNS Hierarchical Design
@@ -41,6 +41,7 @@ Fig. Walking the Tree
 * Each record contains domain / sub-domain name.
 [Route 53](Route%2053.md)
 ### Zone File
+
 ### Hosted Zones
 - Container for records that define how to route traffic to a domain and sub-domains.
 - *Public Hosted Zones* contain records for public domain names.
@@ -63,3 +64,7 @@ All URLs, URCs and URNs are types of URIs.
 
 1. https://stackoverflow.com/questions/176264/what-is-the-difference-between-a-uri-a-url-and-a-urn
 1. https://aws.amazon.com/blogs/networking-and-content-delivery/solving-dns-zone-apex-challenges-with-third-party-dns-providers-using-aws/
+
+## Related Notes
+1. [[DNSSEC]]
+2. 

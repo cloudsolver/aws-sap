@@ -1,11 +1,11 @@
-| #   | Domain                                   | %   |
-| --- | ---------------------------------------- | --- |
-| 1   | Monitoring, Logging, and Remediation     | 20% |
-| 2   | Reliability and Business Continuity      | 16% |
-| 3   | Deployment, Provisioning, and Automation | 18% |
-| 4   | Security and Compliance                  | 16% | 
-| 5   | Networking and Content Delivery          | 18% |
-| 6   | Performance and Cost Optimization        | 12% |
+| #   | Domain                                   | %   |     |
+| --- | ---------------------------------------- | --- | --- |
+| 1   | Monitoring, Logging, and Remediation     | 20% |     |
+| 2   | Reliability and Business Continuity      | 16% |     |
+| 3   | Deployment, Provisioning, and Automation | 18% |     |
+| 4   | Security and Compliance                  | 16% |     |
+| 5   | Networking and Content Delivery          | 18% |     |
+| 6   | Performance and Cost Optimization        | 12% |     |
 
 ![[AWS SOA Badge.png | 256]]
 

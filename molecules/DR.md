@@ -1,5 +1,5 @@
 ## Summary
-DR is the process of preparing for and recovering from a disaster. A resilient architecture will have a robust disaster recovery plan. DR is usually a part of a  business continuity plan. #resilient #WellArchitected 
+Disaster Recovery is the process of preparing for and recovering from a disaster. A resilient architecture will have a robust disaster recovery plan. DR is usually a part of a  business continuity plan. #resilient #WellArchitected 
 
 ### Shared Responsibility
 [[Shared Responsibility Model]]

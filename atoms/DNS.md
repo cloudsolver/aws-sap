@@ -64,3 +64,7 @@ All URLs, URCs and URNs are types of URIs.
 
 1. https://stackoverflow.com/questions/176264/what-is-the-difference-between-a-uri-a-url-and-a-urn
 1. https://aws.amazon.com/blogs/networking-and-content-delivery/solving-dns-zone-apex-challenges-with-third-party-dns-providers-using-aws/
+
+## Related Notes
+1. [[DNSSEC]]
+2. 
